@@ -14,21 +14,21 @@ const feedbackBtn = document.querySelector(".feedback");
 redColor.addEventListener("click", function () {
   cartButton.style.backgroundColor = "red";
   itemTag.style.backgroundColor = "red";
-  imageCard.style.backgroundImage = 'url("https://i.postimg.cc/cH2pJdny/red-benz.webp")';
+  imageCard.style.backgroundImage = 'url("../img/red-benz.webp")';
 });
 
 // - Gray Color
 grayColor[0].addEventListener("click", function () {
   cartButton.style.backgroundColor = "gray";
   itemTag.style.backgroundColor = "gray";
-  imageCard.style.backgroundImage = 'url("https://i.postimg.cc/BvyYTMQ2/gray-benz.jpg")';
+  imageCard.style.backgroundImage = 'url("../img/gray-benz.jpg")';
 });
 
 // - Black Color
 blackColor.addEventListener("click", function () {
   cartButton.style.backgroundColor = "black";
   itemTag.style.backgroundColor = "black";
-  imageCard.style.backgroundImage = 'url("https://i.postimg.cc/NGRJX8hr/black-benz.jpg")';
+  imageCard.style.backgroundImage = 'url("../img/black-benz.jpg")';
 });
 
 // Button Click Implementation
